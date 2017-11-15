@@ -1,17 +1,6 @@
 # Class defining the ops VO, as seen by the VOMS service.
-#
-# Takes care of all the required setup to enable access to the ATLAS VO
-# (users and services) in a grid enabled machine.
-#
-# == Examples
-# 
-# Simply enable this class:
-#   class{'local::vos::cms':}
-#
-# == Authors
-#
-# CERN IT/GT/DMS <it-dep-gt-dms@cern.ch>
-# CERN IT/PS/PES <it-dep-ps-pes@cern.ch>
+# Modified version of the CERNOps voms_client
+# Uses hieradata hashes. See example for LHC VOs.
 
 class voms_client (
   $vo_vomses = {}
@@ -49,9 +38,6 @@ define create_files($vomses = {}){
 
 define voms_directories(){
 
-  ensure_resource('class','voms::install')
-  Class[voms::install] -> Voms_directories[$name]
-  
   file {"/etc/grid-security/vomsdir/${name}":
     ensure  => directory,
     owner   => root,
