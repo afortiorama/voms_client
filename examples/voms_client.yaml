@@ -45,11 +45,11 @@ voms_client::vo_vomses:
       ca_dn: '/C=UK/O=eScienceCA/OU=Authority/CN=UK e-Science CA 2B'
     - server: 'voms02.gridpp.ac.uk'
       port: '15018'
-      dn: '/C=UK/O=eScience/OU=Manchester/L=HEP/CN=voms.gridpp.ac.uk'
+      dn: '/C=UK/O=eScience/OU=Oxford/L=OeSC/CN=voms02.gridpp.ac.uk'
       ca_dn: '/C=UK/O=eScienceCA/OU=Authority/CN=UK e-Science CA 2B'
     - server: 'voms03.gridpp.ac.uk'
       port: '15018'
-      dn: '/C=UK/O=eScience/OU=Manchester/L=HEP/CN=voms.gridpp.ac.uk'
+      dn: '/C=UK/O=eScience/OU=Imperial/L=Physics/CN=voms03.gridpp.ac.uk'
       ca_dn: '/C=UK/O=eScienceCA/OU=Authority/CN=UK e-Science CA 2B'
   gridpp:
     - server: 'voms.gridpp.ac.uk'
@@ -58,11 +58,11 @@ voms_client::vo_vomses:
       ca_dn: '/C=UK/O=eScienceCA/OU=Authority/CN=UK e-Science CA 2B'
     - server: 'voms02.gridpp.ac.uk'
       port: '15000'
-      dn: '/C=UK/O=eScience/OU=Manchester/L=HEP/CN=voms.gridpp.ac.uk'
+      dn: '/C=UK/O=eScience/OU=Oxford/L=OeSC/CN=voms02.gridpp.ac.uk'
       ca_dn: '/C=UK/O=eScienceCA/OU=Authority/CN=UK e-Science CA 2B'
     - server: 'voms03.gridpp.ac.uk'
       port: '15000'
-      dn: '/C=UK/O=eScience/OU=Manchester/L=HEP/CN=voms.gridpp.ac.uk'
+      dn: '/C=UK/O=eScience/OU=Imperial/L=Physics/CN=voms03.gridpp.ac.uk'
       ca_dn: '/C=UK/O=eScienceCA/OU=Authority/CN=UK e-Science CA 2B'
   t2k.org:
     - server: 'voms.gridpp.ac.uk'
@@ -71,11 +71,11 @@ voms_client::vo_vomses:
       ca_dn: '/C=UK/O=eScienceCA/OU=Authority/CN=UK e-Science CA 2B'
     - server: 'voms02.gridpp.ac.uk'
       port: '15003'
-      dn: '/C=UK/O=eScience/OU=Manchester/L=HEP/CN=voms.gridpp.ac.uk'
+      dn: '/C=UK/O=eScience/OU=Oxford/L=OeSC/CN=voms02.gridpp.ac.uk'
       ca_dn: '/C=UK/O=eScienceCA/OU=Authority/CN=UK e-Science CA 2B'
     - server: 'voms03.gridpp.ac.uk'
       port: '15003'
-      dn: '/C=UK/O=eScience/OU=Manchester/L=HEP/CN=voms.gridpp.ac.uk'
+      dn: '/C=UK/O=eScience/OU=Imperial/L=Physics/CN=voms03.gridpp.ac.uk'
       ca_dn: '/C=UK/O=eScienceCA/OU=Authority/CN=UK e-Science CA 2B'
   pheno:
     - server: 'voms.gridpp.ac.uk'
@@ -84,11 +84,11 @@ voms_client::vo_vomses:
       ca_dn: '/C=UK/O=eScienceCA/OU=Authority/CN=UK e-Science CA 2B'
     - server: 'voms02.gridpp.ac.uk'
       port: '15011'
-      dn: '/C=UK/O=eScience/OU=Manchester/L=HEP/CN=voms.gridpp.ac.uk'
+      dn: '/C=UK/O=eScience/OU=Oxford/L=OeSC/CN=voms02.gridpp.ac.uk'
       ca_dn: '/C=UK/O=eScienceCA/OU=Authority/CN=UK e-Science CA 2B'
     - server: 'voms03.gridpp.ac.uk'
       port: '15011'
-      dn: '/C=UK/O=eScience/OU=Manchester/L=HEP/CN=voms.gridpp.ac.uk'
+      dn: '/C=UK/O=eScience/OU=Imperial/L=Physics/CN=voms03.gridpp.ac.uk'
       ca_dn: '/C=UK/O=eScienceCA/OU=Authority/CN=UK e-Science CA 2B'
   skatelescope.eu:
     - server: 'voms.gridpp.ac.uk'
@@ -97,31 +97,37 @@ voms_client::vo_vomses:
       ca_dn: '/C=UK/O=eScienceCA/OU=Authority/CN=UK e-Science CA 2B'
     - server: 'voms02.gridpp.ac.uk'
       port: '15512'
-      dn: '/C=UK/O=eScience/OU=Manchester/L=HEP/CN=voms.gridpp.ac.uk'
+      dn: '/C=UK/O=eScience/OU=Oxford/L=OeSC/CN=voms02.gridpp.ac.uk'
       ca_dn: '/C=UK/O=eScienceCA/OU=Authority/CN=UK e-Science CA 2B'
     - server: 'voms03.gridpp.ac.uk'
       port: '15512'
-      dn: '/C=UK/O=eScience/OU=Manchester/L=HEP/CN=voms.gridpp.ac.uk'
+      dn: '/C=UK/O=eScience/OU=Imperial/L=Physics/CN=voms03.gridpp.ac.uk'
       ca_dn: '/C=UK/O=eScienceCA/OU=Authority/CN=UK e-Science CA 2B'
 # FNAL
   fermilab:
     - server: 'voms1.fnal.gov'
       port: '15001'
-      dn: '/DC=com/DC=DigiCert-Grid/O=Open Science Grid/OU=Services/CN=voms1.fnal.gov'
-      ca_dn: '/DC=com/DC=DigiCert-Grid/O=DigiCert Grid/CN=DigiCert Grid CA-1'
+      dn: '/DC=org/DC=opensciencegrid/O=Open Science Grid/OU=Services/CN=voms1.fnal.gov'
+      ca_dn: '/DC=org/DC=cilogon/C=US/O=CILogon/CN=CILogon OSG CA 1'
     - server: 'voms2.fnal.gov'
       port: '15001'
-      dn: '/DC=com/DC=DigiCert-Grid/O=Open Science Grid/OU=Services/CN=voms2.fnal.gov'
-      ca_dn: '/DC=com/DC=DigiCert-Grid/O=DigiCert Grid/CN=DigiCert Grid CA-1'
-  lsst:
+      dn: '/DC=org/DC=opensciencegrid/O=Open Science Grid/OU=Services/CN=voms2.fnal.gov'
+      ca_dn: '/DC=org/DC=cilogon/C=US/O=CILogon/CN=CILogon OSG CA 1'
+  dune:
     - server: 'voms1.fnal.gov'
-      port: '15003'
-      dn: '/DC=com/DC=DigiCert-Grid/O=Open Science Grid/OU=Services/CN=voms1.fnal.gov'
-      ca_dn: '/DC=com/DC=DigiCert-Grid/O=DigiCert Grid/CN=DigiCert Grid CA-1'
+      port: '15042'
+      dn: '/DC=org/DC=opensciencegrid/O=Open Science Grid/OU=Services/CN=voms1.fnal.gov'
+      ca_dn: '/DC=org/DC=cilogon/C=US/O=CILogon/CN=CILogon OSG CA 1'
     - server: 'voms2.fnal.gov'
+      port: '15042'
+      dn: '/DC=org/DC=opensciencegrid/O=Open Science Grid/OU=Services/CN=voms2.fnal.gov'
+      ca_dn: '/DC=org/DC=cilogon/C=US/O=CILogon/CN=CILogon OSG CA 1'
+# SLAC
+  lsst:
+    - server: 'voms.slac.stanford.edu'
       port: '15003'
-      dn: '/DC=com/DC=DigiCert-Grid/O=Open Science Grid/OU=Services/CN=voms2.fnal.gov'
-      ca_dn: '/DC=com/DC=DigiCert-Grid/O=DigiCert Grid/CN=DigiCert Grid CA-1'
+      dn: '/DC=org/DC=incommon/C=US/postalCode=94305/ST=CA/L=Stanford/street=450 Serra Mall/O=Stanford University/OU=SLAC/CN=voms.slac.stanford.edu'
+      ca_dn: '/C=US/O=Internet2/OU=InCommon/CN=InCommon IGTF Server CA'
 # DESY
   hone:
     - server: 'grid-voms.desy.de'
@@ -155,3 +161,21 @@ voms_client::vo_vomses:
       dn: '/C=GR/O=HellasGrid/OU=hellasgrid.gr/CN=voms2.hellasgrid.gr'
       ca_dn: '/C=GR/O=HellasGrid/OU=Certification Authorities/CN=HellasGrid CA 2006'
 
+
+# BESIII
+  bes:
+    - server: 'voms.ihep.ac.cn'
+      port: '15001'
+      dn: '/C=CN/O=HEP/OU=CC/O=IHEP/CN=voms.ihep.ac.cn'
+      ca_dn: '/C=CN/O=HEP/CN=Institute of High Energy Physics Certification Authority'
+
+# LZ
+  lz:
+    - server: 'voms.hep.wisc.edu'
+      port: '15001'
+      dn: '/DC=org/DC=opensciencegrid/O=Open Science Grid/OU=Services/CN=voms.hep.wisc.edu'
+      ca_dn: '/DC=org/DC=cilogon/C=US/O=CILogon/CN=CILogon OSG CA 1'
+    - server: 'lzvoms.grid.hep.ph.ic.ac.uk'
+      port: '15001'
+      dn: '/C=UK/O=eScience/OU=Imperial/L=Physics/CN=lzvoms.grid.hep.ph.ic.ac.uk'
+      ca_dn: '/C=UK/O=eScienceCA/OU=Authority/CN=UK e-Science CA 2B'
