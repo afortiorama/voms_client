@@ -152,23 +152,16 @@ voms_client::vo_vomses:
       ca_dn: '/C=FR/O=CNRS/CN=GRID2-FR'
 # HELLASGRID
   dteam:
-    - server: 'voms.hellasgrid.gr'
-      port: '15004'
-      dn: '/C=GR/O=HellasGrid/OU=hellasgrid.gr/CN=voms.hellasgrid.gr'
-      ca_dn: '/C=GR/O=HellasGrid/OU=Certification Authorities/CN=HellasGrid CA 2006'
     - server: 'voms2.hellasgrid.gr'
       port: '15004'
       dn: '/C=GR/O=HellasGrid/OU=hellasgrid.gr/CN=voms2.hellasgrid.gr'
-      ca_dn: '/C=GR/O=HellasGrid/OU=Certification Authorities/CN=HellasGrid CA 2006'
-
-
+      ca_dn: '/C=GR/O=HellasGrid/OU=Certification Authorities/CN=HellasGrid CA 2016'
 # BESIII
   bes:
     - server: 'voms.ihep.ac.cn'
       port: '15001'
       dn: '/C=CN/O=HEP/OU=CC/O=IHEP/CN=voms.ihep.ac.cn'
       ca_dn: '/C=CN/O=HEP/CN=Institute of High Energy Physics Certification Authority'
-
 # LZ
   lz:
     - server: 'voms.hep.wisc.edu'
